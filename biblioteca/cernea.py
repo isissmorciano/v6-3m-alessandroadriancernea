@@ -1,4 +1,7 @@
 def main():
+    from biblioteca import libri
+    
+    
     l1 = {
         "titolo": "Borbadamenti",
         "autore": "Trump",
