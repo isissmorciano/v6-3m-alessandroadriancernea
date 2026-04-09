@@ -83,4 +83,15 @@ def libri_disponibili(libri: list[dict]) -> list[dict]:
             lista == 1
 
 def cerca_per_autore(libri: list[dict], autore: str) -> list[dict]:
-     pass
+     libri = {
+        "titolo": titolo,
+        "autore": autore,
+        "genere": genere,
+        "copie_disponibili": copie_disponibili
+    }
+     chiedo = str(input("Chi stai cercando?: ")).lower()
+     for chiedo in libri["autore"]:
+         if libri["autore"] == chiedo:
+             print(f"Autore trovato {chiedo}")
+         elif libro["autore"] != chiedo:
+             print("Autore non trovato..")

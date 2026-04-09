@@ -30,6 +30,12 @@ def main():
         "copie_disponibili": 67
     }
 
+    utenti: dict = {
+        "nome e cognome"
+        "Giorgio": "frigo",
+        "Carmelo": "fighello",
+        "Rtx5090": "espensivo"
+    }
 
 
 
