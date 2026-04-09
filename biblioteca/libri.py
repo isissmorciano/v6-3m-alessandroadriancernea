@@ -25,14 +25,10 @@ def crea_libro(titolo: str, autore: str, genere: str, copie_disponibili: int) ->
         "copie_disponibili": copie_disponibili
     }
 
+# 1984 di George Orwell (Fantascienza) - Copie disponibili: 1
 def info_libro(libro: dict) -> str:
-    libro = {
-        "titolo": "",
-        "autore": "George Orwell",
-        "genere": "Fantascienza",
-        "copie_disponibili": 1
-    }
-    return libro
+    libro_come_stringa = f"{libro["titolo"]} di {libro["autore"]} ({libro["genere"]}) - Copie disponibili: {libro["copie_disponibili"]}"
+    return libro_come_stringa
 
 def libro_disponibile(libro: dict) -> bool:
     for libro in libri:
