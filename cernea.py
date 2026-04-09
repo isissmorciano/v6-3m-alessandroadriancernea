@@ -38,15 +38,21 @@ def main():
                     copie_disponibili=6
                     )
     
-    print(l2)
+    print(l3)
 
-    l2: dict = crea_libro(titolo="Dragonball",
-                    autore="Goku",
-                    genere="Manga",
-                    copie_disponibili=5
+    l3_stringa: str = info_libro(libro=l3)
+    print(l3_stringa)
+
+    l4: dict = crea_libro(titolo="Ricetta",
+                    autore="Mamma",
+                    genere="Librocibo",
+                    copie_disponibili=1
                     )
     
-    print(l2)
+    print(l4)
+
+    l4_stringa: str = info_libro(libro=l4)
+    print(l4_stringa)
 
     utenti: dict = {
         "nome e cognome"
