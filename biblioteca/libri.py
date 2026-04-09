@@ -31,7 +31,6 @@ def info_libro(libro: dict) -> str:
     return libro_come_stringa
 
 def libro_disponibile(libro: dict) -> bool:
-    for libro in libri:
         if libro["copie_disponibili"] >= 1:
                  return True
         elif libro["copie_disponibili"] < 1:
